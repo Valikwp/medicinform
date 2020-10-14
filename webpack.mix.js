@@ -2,8 +2,8 @@ const  mix  = require('laravel-mix');
 
 mix.pug = require('laravel-mix-pug');
 
-
-
+var ghpages = require('gh-pages');
+ghpages.publish('build', function(err) {});
 
 /*
  |--------------------------------------------------------------------------
