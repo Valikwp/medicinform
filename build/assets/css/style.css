@@ -831,3 +831,9 @@ textarea {
   top: 24px;
   cursor: pointer;
 }
+
+header .header-top {
+  border-bottom: 1px solid #eee;
+  height: 70px;
+  background: linear-gradient(to bottom, #138bc2 1%, #097ab1 100%);
+}
