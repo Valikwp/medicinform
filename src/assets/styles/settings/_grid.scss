@@ -1,9 +1,9 @@
 .site-width {
   width: 100%;
   margin: 0 auto;
-  padding-right: 28px;
-  padding-left: 28px;
-  max-width: 1236px;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 1200px;
 
   @include phone-991 {
     padding-right: 0px;
@@ -14,8 +14,8 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: 0;
-  margin-left: 0;
+  margin-right: -15px;
+  margin-left: -15px;
 
 
 }

@@ -5,7 +5,16 @@ header.header
                 .col.col-logo
                     .block-logo
                         a.block-logo-link(href='/')
-                            +img('logo.png', 'logo.png', '')
+                            +img('logo.png', 'logo.png')
                             span
                                 | Медицинская информационная сеть
-
+                .col.col-right
+                    .block-search
+                        span.block-search-text
+                            | ПОИСК
+                        +img('icon/search.png', 'icon/search.png')
+                        form.block-search-form(action='https://www.medicinform.net/cgi-bin/riflex/search.pl', method='GET', name='name')
+                             input(type='text', name='q')
+                             input(type='hidden', name='stpos', value='0')
+                             input(type='hidden', name='s', value='R')
+                             input(type='submit', value='Найти')

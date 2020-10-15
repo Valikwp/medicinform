@@ -1,27 +1,18 @@
 input {
   background-color: $back-input;
   border: none;
-  width: 240px;
-  height: 44px;
+  height: 32px;
   padding-left: 16px;
   padding-right: 16px;
-  font-weight: 500;
-  font-size: 18px;
+  font-size: 15px;
   @include phone-991 {
-    width: 227px;
-    height: 38px;
+
   }
   @include phone-374 {
-    width: 180px;
+
   }
 }
 
 textarea {
-  background-color: $back-input;
-  border: none;
-  padding-top: 20px;
-  padding-left: 16px;
-  padding-right: 16px;
-  font-weight: 500;
-  font-size: 18px;
+
 }
