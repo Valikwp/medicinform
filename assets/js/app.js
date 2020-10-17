@@ -14768,8 +14768,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/valentin/Work/medicinform/src/assets/js/app.js */"./src/assets/js/app.js");
-module.exports = __webpack_require__(/*! /Users/valentin/Work/medicinform/src/assets/styles/style.scss */"./src/assets/styles/style.scss");
+__webpack_require__(/*! /Users/admin/Downloads/medicinform/src/assets/js/app.js */"./src/assets/js/app.js");
+module.exports = __webpack_require__(/*! /Users/admin/Downloads/medicinform/src/assets/styles/style.scss */"./src/assets/styles/style.scss");
 
 
 /***/ })
