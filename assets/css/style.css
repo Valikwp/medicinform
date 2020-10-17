@@ -752,3 +752,8 @@ header .header-top {
   height: 70px;
   background: linear-gradient(to bottom, #138bc2 1%, #097ab1 100%);
 }
+
+header .header-top .block-logo-link .img {
+  position: relative;
+  left: -42px;
+}
