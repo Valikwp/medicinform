@@ -753,7 +753,17 @@ header .header-top {
   background: linear-gradient(to bottom, #138bc2 1%, #097ab1 100%);
 }
 
+header .header-top .block-logo-link {
+  display: flex;
+  align-items: center;
+}
+
 header .header-top .block-logo-link .img {
   position: relative;
   left: -42px;
+}
+
+header .header-top .block-logo-link span {
+  color: #252525;
+  font-family: "Palatino Linotype", sans-serif;
 }
