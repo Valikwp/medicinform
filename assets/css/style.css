@@ -815,7 +815,11 @@ header .header-bottom-menu {
   background-color: #e2e2e2;
 }
 
-header .header-bottom-menu .submenu-small {
+header .header-bottom-menu-ul {
+  display: flex;
+}
+
+header .header-bottom-menu-ul .submenu-small {
   display: none;
   position: absolute;
   width: 100%;
@@ -826,7 +830,7 @@ header .header-bottom-menu .submenu-small {
   border-bottom: 1px solid #bbb;
 }
 
-header .header-bottom-menu .submenu-big {
+header .header-bottom-menu-ul .submenu-big {
   display: none;
   position: absolute;
   width: 100%;
