@@ -1,0 +1,145 @@
+.sidebar {
+  background-color: $back-sidebar;
+  height: 100%;
+  padding-top: 10px;
+  padding-left: 18px;
+  padding-right: 18px;
+  &-title {
+    margin-top: 20px;
+    color:  $white-color;
+    font-family: $font-bold;
+    font-size: 18px;
+    position: relative;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    pointer-events: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      pointer-events: auto;
+      position: relative;
+    }
+    &:before {
+      position: absolute;
+      content: '';
+      width: 278px;
+      height: 50px;
+      background: $back-sidebar-title;
+      transform-origin: 0 100%;
+      transform: skew(-6deg);
+      left: 0px;
+    }
+    &:after {
+      position: absolute;
+      content: '';
+      width: 278px;
+      height: 4px;
+      background: $back-sidebar-title-2;
+      left: 0px;
+      bottom: 0;
+    }
+  }
+
+}
+.sidebar-new {
+  &-item {
+    padding-top: 7px;
+    padding-bottom: 10px;
+    display: flex;
+    img {
+
+      margin-right: 10px;
+    }
+
+    a {
+      font-size: 13px;
+      color: $color-link;
+      text-decoration: underline;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+    p {
+      display: inline;
+      font-size: 13px;
+      padding-left: 5px;
+      a {
+        color: $main-color;
+      }
+    }
+  }
+}
+.sidebar-partners {
+  .sidebar-new-item {
+    border-bottom: 1px solid #bddbe9;
+    padding-bottom: 18px;
+    padding-top: 15px;
+    &:last-child {
+      border: none;
+    }
+  }
+}
+.archive-article {
+  background-image: url(../images/icon/archive-news.png);
+  width: 129px;
+  height: 19px;
+  color: $white-color;
+  padding-left: 37px;
+  font-size: 12px;
+  line-height: 17px;
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 22px;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.appointment {
+  position: relative;
+  background-color: $back-zapis;
+  top: 22px;
+  display: block;
+  height: 108px;
+  margin-bottom: 60px;
+  &:before {
+    position: absolute;
+    content: '';
+    background-image: url(../images/icon/doctor.png);
+    width: 63px;
+    height: 102px;
+    left: 35px;
+    bottom: 0;
+  }
+  b {
+    font-weight: normal;
+    font-size: 27.18px;
+    line-height: 27.18px;
+    position: absolute;
+    color: $white-color;
+    text-transform: uppercase;
+    font-family: $font-bold;
+    right: 47px;
+    top: 27px;
+
+  }
+  span {
+
+    font-size: 27.18px;
+    line-height: 27.18px;
+    position: absolute;
+    color: $color-zapis;
+    text-transform: uppercase;
+    font-family: $font-light;
+    right: 52px;
+    bottom: 27px;
+  }
+}
+.sidebar-block-img  {
+  img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  }
+}
