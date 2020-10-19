@@ -962,12 +962,42 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 .last-med-title .h2 {
   color: #262626;
   position: relative;
+  padding-left: 55px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .last-med-title .h2:before {
   content: '';
   position: absolute;
-  left: 0;
-  top: 0;
+  left: 15px;
+  top: 10px;
+  width: 33px;
+  height: 23px;
   background-image: url(../images/icon/last-med-title.png);
+}
+
+.last-med-content {
+  background-color: #f3f9fc;
+}
+
+.last-med-content-item {
+  padding-top: 10px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.last-med-content-item time {
+  color: #b3b3b3;
+  display: block;
+}
+
+.last-med-content-item a {
+  color: #262626;
+}
+
+.last-med-content-item a:hover {
+  color: #1289c0;
+  text-decoration: underline;
 }
