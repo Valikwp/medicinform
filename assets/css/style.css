@@ -955,6 +955,10 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   font-weight: bold;
 }
 
+.last-med {
+  background-color: #f3f9fc;
+}
+
 .last-med-title {
   background-color: #f0f0f0;
 }
@@ -978,14 +982,15 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 }
 
 .last-med-content {
-  background-color: #f3f9fc;
+  padding-top: 5px;
 }
 
 .last-med-content-item {
-  padding-top: 10px;
-  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
+  border-bottom: 1px solid #ededed;
 }
 
 .last-med-content-item time {
@@ -1000,4 +1005,10 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 .last-med-content-item a:hover {
   color: #1289c0;
   text-decoration: underline;
+}
+
+.last-med .all-med {
+  margin-left: 15px;
+  background-image: url(../images/icon/last-med-all.png);
+  margin-right: 15px;
 }
