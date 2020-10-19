@@ -68,81 +68,73 @@ html {
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Light';
   src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff"), url("../fonts/opensanslight.ttf") format("truetype");
-  font-weight: 300;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Light Italic';
   src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"), url("../fonts/opensanslightitalic.woff2") format("woff2"), url("../fonts/opensanslightitalic.woff") format("woff"), url("../fonts/opensanslightitalic.ttf") format("truetype");
-  font-weight: 300;
+  font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
-  src: local("Open Sans"), local("OpenSans"), url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff"), url("../fonts/opensans.ttf") format("truetype");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Italic';
   src: local("Open Sans Italic"), local("OpenSans-Italic"), url("../fonts/opensansitalic.woff2") format("woff2"), url("../fonts/opensansitalic.woff") format("woff"), url("../fonts/opensansitalic.ttf") format("truetype");
-  font-weight: 400;
+  font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Semibold';
   src: local("Open Sans Semibold"), local("OpenSans-Semibold"), url("../fonts/opensanssemibold.woff2") format("woff2"), url("../fonts/opensanssemibold.woff") format("woff"), url("../fonts/opensanssemibold.ttf") format("truetype");
-  font-weight: 600;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Semibold Italic';
   src: local("Open Sans Semibold Italic"), local("OpenSans-SemiboldItalic"), url("../fonts/opensanssemibolditalic.woff2") format("woff2"), url("../fonts/opensanssemibolditalic.woff") format("woff"), url("../fonts/opensanssemibolditalic.ttf") format("truetype");
-  font-weight: 600;
+  font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Bold';
   src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff"), url("../fonts/opensansbold.ttf") format("truetype");
-  font-weight: 700;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Bold Italic';
   src: local("Open Sans Bold Italic"), local("OpenSans-BoldItalic"), url("../fonts/opensansbolditalic.woff2") format("woff2"), url("../fonts/opensansbolditalic.woff") format("woff"), url("../fonts/opensansbolditalic.ttf") format("truetype");
-  font-weight: 700;
+  font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Extrabold';
   src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"), url("../fonts/opensansextrabold.woff2") format("woff2"), url("../fonts/opensansextrabold.woff") format("woff"), url("../fonts/opensansextrabold.ttf") format("truetype");
-  font-weight: 800;
+  font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans Extrabold Italic';
   src: local("Open Sans Extrabold Italic"), local("OpenSans-ExtraboldItalic"), url("../fonts/opensansextrabolditalic.woff2") format("woff2"), url("../fonts/opensansextrabolditalic.woff") format("woff"), url("../fonts/opensansextrabolditalic.ttf") format("truetype");
-  font-weight: 800;
+  font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
@@ -396,7 +388,7 @@ p {
 }
 
 .col-content {
-  max-width: calc(100% - 391px);
+  max-width: calc(100% - 318px);
   padding-left: 12.5px;
   padding-right: 12.5px;
 }
@@ -409,53 +401,8 @@ p {
   }
 }
 
-.page-single .row-content {
-  margin-left: -20px;
-  margin-right: -20px;
-}
-
-@media screen and (max-width: 991px) {
-  .page-single .row-content {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-.page-single .col-content {
-  max-width: calc(100% - 410px);
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-@media screen and (max-width: 991px) {
-  .page-single .col-content {
-    max-width: 100%;
-    padding-left: 28px;
-    padding-right: 24px;
-  }
-}
-
-@media screen and (max-width: 374px) {
-  .page-single .col-content {
-    padding-left: 18px;
-    padding-right: 14px;
-  }
-}
-
-.page-single .col-sidebar {
-  max-width: 410px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-@media screen and (max-width: 991px) {
-  .page-single .col-sidebar {
-    display: none;
-  }
-}
-
 .col-sidebar {
-  max-width: 391px;
+  max-width: 318px;
   padding-left: 12.5px;
   padding-right: 12.5px;
 }
@@ -465,84 +412,6 @@ p {
     padding-left: 0;
     padding-right: 0;
     max-width: none;
-  }
-}
-
-.col-news {
-  padding-left: 12px;
-  padding-right: 12px;
-  flex: 1 1 33.33333333%;
-  max-width: 33.33333333%;
-}
-
-@media screen and (max-width: 991px) {
-  .col-news {
-    padding-left: 28px;
-    padding-right: 28px;
-    flex: 1 1 50%;
-    max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .col-news {
-    padding-left: 0px;
-    padding-right: 0px;
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-}
-
-.single-last-news .row, .page-politics .row {
-  margin-right: -20px;
-  margin-left: -20px;
-}
-
-@media screen and (max-width: 991px) {
-  .single-last-news .row, .page-politics .row {
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-
-.single-last-news .col-news, .page-politics .col-news {
-  padding-left: 20px;
-  padding-right: 20px;
-  flex: 1 1 33.33333333%;
-  max-width: 33.33333333%;
-}
-
-@media screen and (max-width: 991px) {
-  .single-last-news .col-news, .page-politics .col-news {
-    padding-left: 28px;
-    padding-right: 28px;
-    flex: 1 1 50%;
-    max-width: 50%;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .single-last-news .col-news, .page-politics .col-news {
-    padding-left: 0px;
-    padding-right: 0px;
-    flex: 1 1 100%;
-    max-width: 100%;
-  }
-}
-
-.single-last-news .col-news:last-child, .page-politics .col-news:last-child {
-  display: none;
-}
-
-@media screen and (max-width: 991px) {
-  .single-last-news .col-news:last-child, .page-politics .col-news:last-child {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 560px) {
-  .single-last-news .col-news:last-child, .page-politics .col-news:last-child {
-    display: none;
   }
 }
 
@@ -837,7 +706,8 @@ header .header-bottom-menu-ul li a {
   line-height: 34px;
   cursor: pointer;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: bold;
+  font-family: "Open Sans Semibold", sans-serif;
 }
 
 header .header-bottom-menu-ul li a:hover {
@@ -850,7 +720,8 @@ header .header-bottom-menu-ul li p {
   line-height: 34px;
   cursor: pointer;
   font-size: 12px;
-  font-weight: 600;
+  font-weight: bold;
+  font-family: "Open Sans Semibold", sans-serif;
 }
 
 header .header-bottom-menu-ul li p:hover {
@@ -996,4 +867,59 @@ header .header-bottom .header-bottom-link ul li a:hover {
 
 header .header-bottom .header-bottom-link ul li:last-child:after {
   content: none;
+}
+
+.last-news {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.last-news-big {
+  padding-bottom: 5px;
+  display: flex;
+}
+
+.last-news-big-img {
+  padding-right: 7.5px;
+}
+
+.last-news-big-img img {
+  width: 100%;
+}
+
+.last-news-big-content {
+  width: 50%;
+  padding-left: 7.5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.last-news-big-content time {
+  background-color: #f0f0f0;
+  color: #838383;
+  font-size: 11px;
+  font-weight: bold;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-family: "Open Sans Light", sans-serif;
+}
+
+.last-news-big-content a {
+  display: block;
+  font-size: 18px;
+  font-family: "Open Sans Bold", sans-serif;
+  color: #1289c0;
+  text-decoration: underline;
+  line-height: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 25px;
+}
+
+.last-news-big-content a:hover {
+  text-decoration: none;
+}
+
+.last-news-big-content p {
+  line-height: 18px;
 }
