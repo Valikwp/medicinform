@@ -653,7 +653,7 @@ header .header-top .col-logo .block-logo-link {
 
 header .header-top .col-logo .block-logo-link .img {
   position: relative;
-  left: -36px;
+  left: -44px;
 }
 
 header .header-top .col-logo .block-logo-link span {
@@ -661,7 +661,8 @@ header .header-top .col-logo .block-logo-link span {
   font-family: "Palatino Linotype", sans-serif;
   font-size: 26px;
   text-transform: uppercase;
-  margin-left: -36px;
+  margin-left: -43px;
+  letter-spacing: 0.6px;
 }
 
 header .header-bottom-menu {
@@ -828,7 +829,7 @@ header .header-bottom .header-bottom-link {
 header .header-bottom .header-bottom-link ul {
   display: flex;
   align-items: center;
-  line-height: 34px;
+  line-height: 39px;
 }
 
 header .header-bottom .header-bottom-link ul li {
@@ -840,11 +841,12 @@ header .header-bottom .header-bottom-link ul li:after {
   position: absolute;
   content: '|';
   color: #0c7eb6;
-  right: 10px;
+  right: 12px;
 }
 
 header .header-bottom .header-bottom-link ul li a {
   color: #0c7eb6;
+  font-size: 13px;
 }
 
 header .header-bottom .header-bottom-link ul li a:hover {
@@ -1011,7 +1013,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 
 .content-index {
   padding-top: 25px;
-  padding-bottom: 50px;
+  padding-bottom: 46px;
 }
 
 .last-news {
@@ -1044,8 +1046,11 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   color: #838383;
   font-size: 11px;
   font-weight: bold;
-  padding-left: 8px;
-  padding-right: 8px;
+  width: 70px;
+  justify-content: center;
+  display: flex;
+  height: 20px;
+  align-items: center;
   font-family: "Open Sans Light", sans-serif;
 }
 
@@ -1057,7 +1062,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   text-decoration: underline;
   line-height: 22px;
   padding-top: 15px;
-  padding-bottom: 15px;
+  padding-bottom: 19px;
   padding-right: 25px;
 }
 
@@ -1066,7 +1071,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 }
 
 .last-news-big-content p {
-  line-height: 18px;
+  line-height: 17px;
 }
 
 .last-news-small {
@@ -1090,7 +1095,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 
 .last-news-small-item-content {
   background-color: #f3f9fc;
-  padding: 15px;
+  padding: 11px;
 }
 
 .last-news-small-item-content a {
@@ -1100,6 +1105,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   text-decoration: underline;
   font-family: "Open Sans Bold", sans-serif;
   padding-bottom: 15px;
+  line-height: 13px;
 }
 
 .last-news-small-item-content a:hover {
@@ -1143,7 +1149,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 }
 
 .last-med-content {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .last-med-content-item {
@@ -1152,11 +1158,13 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   padding-left: 15px;
   padding-right: 15px;
   border-bottom: 1px solid #ededed;
+  margin-bottom: -2px;
 }
 
 .last-med-content-item time {
   color: #b3b3b3;
   display: block;
+  font-size: 12px;
 }
 
 .last-med-content-item a {
@@ -1180,7 +1188,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   padding-left: 36px;
   padding-top: 2px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .last-med .all-med:hover {
@@ -1194,7 +1202,9 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 
 .goroskop .h3 {
   color: #262626;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 4px;
 }
 
 .goroskop-content {
@@ -1247,7 +1257,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 }
 
 .footer-top-menu li {
-  padding-left: 10px;
+  padding-left: 11px;
   padding-right: 20px;
 }
 
@@ -1272,11 +1282,15 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 }
 
 .footer-bottom-col-1 {
-  flex-basis: 21%;
+  flex-basis: 21.4%;
 }
 
 .footer-bottom-col-2 {
   max-width: 225px;
+}
+
+.footer-bottom-col-3 {
+  position: relative;
 }
 
 .footer-bottom-text {
@@ -1287,7 +1301,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 .footer-bottom-text p {
   color: #74bfe2;
   font-size: 11px;
-  margin-bottom: 15px;
+  margin-bottom: 11px;
   line-height: 14px;
 }
 
@@ -1295,9 +1309,13 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   list-style-type: none;
 }
 
+.footer-bottom-menu li {
+  margin-bottom: 8px;
+}
+
 .footer-bottom-menu li a {
   font-size: 12px;
-  line-height: 25px;
+  line-height: 17px;
   color: #ffffff;
   text-decoration: underline;
 }
@@ -1309,16 +1327,25 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 .footer-bottom-soc-statistic {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .footer-bottom-soc-statistic .footer-bottom-soc-title {
   color: #ffffff;
   font-size: 14px;
-  line-height: 25px;
+  line-height: 16px;
+  margin-bottom: 4px;
 }
 
 .footer-bottom-soc-statistic .footer-bottom-soc img {
   margin-right: 5px;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+.footer-bottom-copyright {
+  color: #74bfe2;
+  font-size: 11px;
+  position: absolute;
+  bottom: 4px;
 }
