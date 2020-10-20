@@ -143,30 +143,31 @@ p {
 
 }
 
-.back-to {
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 0.02em;
-  font-weight: 500;
+.back_to_top {
+position: fixed;
+  background-image: url(../images/icon/top.png);
+  width: 70px;
+  height: 70px;
+  bottom: 50px;
+  right: 50px;
+  display: none;
+  cursor: pointer;
+}
+.back_to_top-show {
+  display: block;
+}
+
+input {
+  background-color: $back-input;
+  border: none;
+  height: 32px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 15px;
   @include phone-991 {
-    font-size: 16px;
-    line-height: 19px;
-  }
-
-  svg {
-    left: 0;
-    position: relative;
-    margin-right: 12px;
-    transition: all .5s;
-    @include phone-991 {
-      width: 15px;
-      height: 14px;
-    }
-
 
   }
+  @include phone-374 {
 
-  &:hover svg {
-    left: -10px;
   }
 }

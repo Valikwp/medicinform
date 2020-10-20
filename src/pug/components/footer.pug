@@ -1,1 +1,82 @@
 footer.footer#footer
+    .footer-top
+        .site-width
+            .row
+                .col
+                    ul.footer-top-menu
+                        li
+                            a(href="#")
+                                | О проекте
+                        li
+                            a(href="#")
+                                | Авторы и рецензенты
+                        li
+                            a(href="#")
+                                | Врачам и клиникам
+                        li.footer-top-menu-rek
+                            a(href="#")
+                                | Реклама
+                        li
+                            a(href="#")
+                                | Контакты
+                        li
+                            a(href="#")
+                                | Карта сайта
+    .footer-bottom
+        .site-width
+            .row
+                .col.footer-bottom-col-1
+                    .footer-bottom-text
+                        p
+                            | Копирование или иное распространение статей нашего сайта строго воспрещается. Копирование раздела "Новости" допускается при наличии активной открытой для поисковиков ссылки на MedicInform.Net
+                        p
+                            | Материалы на сайте представлены в справочных целях. Редакция не всегда разделяет мнение авторов опубликованных материалов. Перед применением тех или иных рекомендаций настоятельно рекомендуется посоветоваться с Вашим лечащим врачом!
+                .col.footer-bottom-col-2
+                    ul.footer-bottom-menu
+                        li
+                            a(href="#")
+                                | Сообщить об ошибке
+                        li
+                            a(href="#")
+                                | Политика конфиденциальности
+                        li
+                            a(href="#")
+                                | Условия использования
+                        li
+                            a(href="#")
+                                | Бесплатная подписка
+                .col.footer-bottom-col-3
+                    .footer-bottom-soc-statistic
+                        .footer-bottom-soc
+                            .footer-bottom-soc-title
+                                | Мы в социальных сетях:
+                            .footer-bottom-soc-list
+                                a(href="#")
+                                    +img('icon/telegram.png')
+                                a(href="#")
+                                    +img('icon/vk.png')
+                                a(href="#")
+                                    +img('icon/fb.png')
+                                a(href="#")
+                                    +img('icon/ok.png')
+                                a(href="#")
+                                    +img('icon/tw.png')
+                                a(href="#")
+                                    +img('icon/feed.png')
+                        .footer-bottom-statistic
+                            <script type="text/javascript">document.write("<a href='//www.liveinternet.ru/click' "+"target=_blank><img src='//counter.yadro.ru/hit?t38.11;r"+escape(document.referrer)+((typeof(screen)== "undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+";h"+escape(document.title.substring(0, 150))+";"+Math.random()+"' alt='' title='LiveInternet' "+"border='0' width='31' height='31'><\/a>")</script>
+                    .footer-bottom-copyright
+                        | Copyright © MedicInform.Net - медицина, психология, 1999 - 2019
+.back_to_top
+.cookie-window
+    .site-width
+        .row
+            .col
+                .cookie-window-content
+                    p
+                        | Этот веб-сайт использует файлы cookie, которые необходимы для Вашего удобства при пользовании сайтом и для статистических данных о посещаемости сайта. Нажав «Принимаю», вы соглашаетесь на использование файлов cookie.
+                    span.cookie-window-content-btn
+                        | Принимаю
+<script>(function(){'use strict';function trackScroll(){var scrolled=window.pageYOffset;var coords=document.documentElement.clientHeight;if(scrolled>coords){goTopBtn.classList.add('back_to_top-show')}if(scrolled<coords){goTopBtn.classList.remove('back_to_top-show')}}function backToTop(){if(window.pageYOffset>0){window.scrollBy(0,-150);setTimeout(backToTop,80)}}var goTopBtn=document.querySelector('.back_to_top');window.addEventListener('scroll',trackScroll);goTopBtn.addEventListener('click',backToTop);function cookieAddClass() {var cookiewrap = document.querySelector('.cookie-window');cookiewrap.classList.remove('cookie-window-show');setCookie("cookiehide", 'true', 365);};  document.querySelector('.cookie-window-content-btn').addEventListener('click', cookieAddClass);})();function setCookie(cname,cvalue,exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*60*60*1000));var expires="expires="+d.toUTCString();document.cookie=cname+"="+cvalue+"; "+expires}function getCookie(cname){var name=cname+"=";var ca=document.cookie.split(';');for(var i=0;i<ca.length;i++){var c=ca[i];while(c.charAt(0)==' ')c=c.substring(1);if(c.indexOf(name)==0)return c.substring(name.length,c.length)}return""}if(getCookie("cookiehide")!='true') {document.querySelector('.cookie-window').classList.add('cookie-window-show');}</script>
+
+
