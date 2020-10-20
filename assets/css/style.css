@@ -1233,3 +1233,34 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   font-size: 10px;
   line-height: 18px;
 }
+
+.footer-top {
+  height: 41px;
+  background-color: #0c72a4;
+  display: flex;
+  align-items: center;
+}
+
+.footer-top-menu {
+  display: flex;
+  align-items: center;
+}
+
+.footer-top-menu li {
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.footer-top-menu li a {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.footer-top-menu li a:hover {
+  text-decoration: underline;
+}
+
+.footer-top-menu .footer-top-menu-rek a {
+  color: #51fff1;
+  font-family: "Open Sans Extrabold", sans-serif;
+}
