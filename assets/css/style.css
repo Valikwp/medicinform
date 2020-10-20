@@ -908,7 +908,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 }
 
 .sidebar-new-item {
-  padding-top: 7px;
+  padding-top: 6px;
   padding-bottom: 10px;
   display: flex;
 }
@@ -931,6 +931,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   display: inline;
   font-size: 13px;
   padding-left: 5px;
+  line-height: 16px;
 }
 
 .sidebar-new-item p a {
@@ -945,6 +946,10 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
 
 .sidebar-partners .sidebar-new-item:last-child {
   border: none;
+}
+
+.sidebar-partners .sidebar-new-item img {
+  width: 91px;
 }
 
 .archive-article {
