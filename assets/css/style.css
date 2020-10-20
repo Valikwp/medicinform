@@ -1194,6 +1194,7 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   background-color: #0c72a4;
   padding-top: 10px;
   padding-bottom: 10px;
+  display: none;
 }
 
 .cookie-window-content {
@@ -1226,6 +1227,6 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   text-decoration: underline;
 }
 
-.cookie-window-hide {
-  display: none;
+.cookie-window-show {
+  display: block;
 }
