@@ -5,7 +5,7 @@ block variables
   - var pageClass = 'page-home'
   - var description = ''
 block head
-  link(rel="stylesheet" type='text/css' rel='preload' href='assets/css/style.css?ver=' + hash)
+  link(rel="stylesheet" type='text/css'  href='assets/css/style.css?ver=' + hash)
 
 block content
   .page-home#page-home
@@ -15,7 +15,7 @@ block content
         .col.col-content
           .content-wrap
             include components/index
-        .col.col-sidebar
+        .col.col-sidebar.phone-hide
           include components/sidebar
     include components/footer
 block script

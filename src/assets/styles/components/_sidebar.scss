@@ -4,6 +4,18 @@
   padding-top: 10px;
   padding-left: 18px;
   padding-right: 18px;
+  .row {
+    @include phone-1023 {
+      margin-left: -7.5px;
+      margin-right: -7.5px;
+    }
+    .col {
+      @include phone-1023 {
+      padding-left: 7.5px;
+      padding-right: 7.5px;
+      }
+    }
+  }
   &-title {
     margin-top: 20px;
     color:  $white-color;
@@ -31,6 +43,9 @@
       transform-origin: 0 100%;
       transform: skew(-6deg);
       left: 0px;
+      @include phone-1023 {
+        width: 100%;
+      }
     }
     &:after {
       position: absolute;
@@ -40,9 +55,48 @@
       background: $back-sidebar-title-2;
       left: 0px;
       bottom: 0;
+      @include phone-1023 {
+        width: 100%;
+      }
     }
   }
 
+}
+.sidebar-medforum {
+  border: 1px solid #d5d5d5;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  @include phone-767 {
+    padding-left: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 7px;
+  }
+  &-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: $font-semibold;
+    margin-bottom: 12px;
+    span {
+      color: $color-link;
+    }
+  }
+&-list {
+  list-style-type: disc;
+  padding-left: 15px;
+  li {
+    color: $color-link;
+    margin-bottom: 7px;
+    a {
+      font-size: 12px;
+      line-height: 10px;
+      color: $color-link;
+      text-decoration: underline;
+    }
+  }
+}
 }
 .sidebar-new {
   &-item {
@@ -108,6 +162,12 @@
   display: block;
   height: 108px;
   margin-bottom: 60px;
+  @include phone-1023 {
+    top: 0;
+  }
+  @include phone-767 {
+    margin-bottom: 23px;
+  }
   &:before {
     position: absolute;
     content: '';
