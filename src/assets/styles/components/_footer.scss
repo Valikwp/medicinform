@@ -182,11 +182,18 @@
   padding-top: 10px;
   padding-bottom: 10px;
   display: none;
+  @include phone-1023 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
   &-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include phone-767 {
+      display: block;
+    }
 
     p {
       color: $white-color;
@@ -206,6 +213,11 @@
       padding-top: 10px;
       padding-bottom: 10px;
       cursor: pointer;
+      @include phone-767 {
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+      }
 
       &:hover {
         text-decoration: underline;

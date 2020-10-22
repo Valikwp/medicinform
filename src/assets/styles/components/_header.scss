@@ -415,10 +415,14 @@ header {
             }
           }
 
-          &:nth-last-of-type(2), &:nth-last-of-type(3) {
-            display: none;
-          }
 
+          }
+> li {
+  &:nth-last-of-type(2), &:nth-last-of-type(3) {
+    @include phone-1023 {
+      display: none;
+    }
+}
           @include phone-1023 {
             padding-right: 0;
             padding-left: 15px;
