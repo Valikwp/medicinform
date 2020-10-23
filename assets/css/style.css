@@ -393,9 +393,7 @@ input {
   padding-left: 16px;
   padding-right: 16px;
   font-size: 15px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+  -webkit-appearance: button;
 }
 
 header .header-top-mobile {
@@ -587,7 +585,7 @@ header .header-top .block-search-form input[type=text] {
 @media screen and (max-width: 767px) {
   header .header-top .block-search-form input[type=text] {
     max-width: none;
-    width: calc(100% - 32px);
+    width: calc(100% - 78px);
   }
 }
 
