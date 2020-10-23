@@ -59,6 +59,14 @@ html {
   outline: none;
 }
 
+input {
+  border: none;
+  padding: 0px;
+  border-radius: 0;
+  -webkit-appearance: button;
+  margin: 0;
+}
+
 @font-face {
   font-family: 'Open Sans';
   src: local("Open Sans"), local("OpenSans"), url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff"), url("../fonts/opensans.ttf") format("truetype");
@@ -975,6 +983,12 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .sidebar .row .col {
+    flex-basis: 100%;
+  }
+}
+
 .sidebar-title {
   margin-top: 20px;
   color: #ffffff;
@@ -1027,6 +1041,10 @@ header .header-bottom .header-bottom-link ul li:last-child:after {
   .sidebar-title:after {
     width: 100%;
   }
+}
+
+.sidebar-title:first-child {
+  margin-top: 0;
 }
 
 .sidebar-medforum {
