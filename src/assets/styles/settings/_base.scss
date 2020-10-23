@@ -109,13 +109,12 @@ p {
   padding-left: 7.5px;
   padding-right: 7.5px;
   @include phone-1023 {
- flex-basis: 100%;
+    flex-basis: 100%;
     max-width: 100%;
     padding-left: 0px;
     padding-right: 0px;
   }
 }
-
 
 
 .col-sidebar {
@@ -141,7 +140,7 @@ p {
 }
 
 .back_to_top {
-position: fixed;
+  position: fixed;
   background-image: url(../images/icon/top.png);
   width: 70px;
   height: 70px;
@@ -150,6 +149,7 @@ position: fixed;
   display: none;
   cursor: pointer;
 }
+
 .back_to_top-show {
   display: block;
 }
@@ -161,7 +161,7 @@ input {
   padding-left: 16px;
   padding-right: 16px;
   font-size: 15px;
-
+  border-radius: 0;
   -webkit-appearance: button;
 
 }
