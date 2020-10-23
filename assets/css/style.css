@@ -299,6 +299,11 @@ a {
   font-size: 30px;
   font-family: "Open Sans Bold", sans-serif;
   line-height: 36px;
+  border-bottom: 1px solid #0a7bb1;
+  border-bottom-style: dashed;
+  border-width: 3px;
+  display: block;
+  padding-bottom: 16px;
 }
 
 .h2 {
