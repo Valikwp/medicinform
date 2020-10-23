@@ -4,21 +4,27 @@
   padding-top: 10px;
   padding-left: 18px;
   padding-right: 18px;
+
   .row {
     @include phone-1023 {
       margin-left: -7.5px;
       margin-right: -7.5px;
     }
+
     .col {
       @include phone-1023 {
-      padding-left: 7.5px;
-      padding-right: 7.5px;
+        padding-left: 7.5px;
+        padding-right: 7.5px;
+      }
+      @include phone-767 {
+        flex-basis: 100%;
       }
     }
   }
+
   &-title {
     margin-top: 20px;
-    color:  $white-color;
+    color: $white-color;
     font-family: $font-bold;
     font-size: 18px;
     position: relative;
@@ -30,10 +36,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
     span {
       pointer-events: auto;
       position: relative;
     }
+
     &:before {
       position: absolute;
       content: '';
@@ -47,6 +55,7 @@
         width: 100%;
       }
     }
+
     &:after {
       position: absolute;
       content: '';
@@ -59,9 +68,15 @@
         width: 100%;
       }
     }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
   }
 
 }
+
 .sidebar-medforum {
   border: 1px solid #d5d5d5;
   padding-left: 20px;
@@ -74,35 +89,42 @@
     padding-bottom: 10px;
     padding-right: 7px;
   }
+
   &-title {
     font-size: 16px;
     line-height: 20px;
     font-family: $font-semibold;
     margin-bottom: 12px;
+
     span {
       color: $color-link;
     }
   }
-&-list {
-  list-style-type: disc;
-  padding-left: 15px;
-  li {
-    color: $color-link;
-    margin-bottom: 7px;
-    a {
-      font-size: 12px;
-      line-height: 10px;
+
+  &-list {
+    list-style-type: disc;
+    padding-left: 15px;
+
+    li {
       color: $color-link;
-      text-decoration: underline;
+      margin-bottom: 7px;
+
+      a {
+        font-size: 12px;
+        line-height: 10px;
+        color: $color-link;
+        text-decoration: underline;
+      }
     }
   }
 }
-}
+
 .sidebar-new {
   &-item {
     padding-top: 6px;
     padding-bottom: 10px;
     display: flex;
+
     img {
 
       margin-right: 10px;
@@ -112,34 +134,41 @@
       font-size: 13px;
       color: $color-link;
       text-decoration: underline;
+
       &:hover {
         text-decoration: none;
       }
     }
+
     p {
       display: inline;
       font-size: 13px;
       padding-left: 5px;
       line-height: 16px;
+
       a {
         color: $main-color;
       }
     }
   }
 }
+
 .sidebar-partners {
   .sidebar-new-item {
     border-bottom: 1px solid #bddbe9;
     padding-bottom: 18px;
     padding-top: 15px;
+
     &:last-child {
       border: none;
     }
+
     img {
       width: 91px;
     }
   }
 }
+
 .archive-article {
   background-image: url(../images/icon/archive-news.png);
   width: 129px;
@@ -151,10 +180,12 @@
   display: block;
   margin-top: 7px;
   margin-bottom: 22px;
+
   &:hover {
     text-decoration: underline;
   }
 }
+
 .appointment {
   position: relative;
   background-color: $back-zapis;
@@ -168,6 +199,7 @@
   @include phone-767 {
     margin-bottom: 23px;
   }
+
   &:before {
     position: absolute;
     content: '';
@@ -177,6 +209,7 @@
     left: 35px;
     bottom: 0;
   }
+
   b {
     font-weight: normal;
     font-size: 27.18px;
@@ -189,6 +222,7 @@
     top: 27px;
 
   }
+
   span {
 
     font-size: 27.18px;
@@ -201,9 +235,10 @@
     bottom: 27px;
   }
 }
-.sidebar-block-img  {
+
+.sidebar-block-img {
   img {
-  margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
