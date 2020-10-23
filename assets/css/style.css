@@ -1596,6 +1596,23 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
   line-height: 18px;
 }
 
+.post-category-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post-category-list-item {
+  margin-left: 10px;
+  margin-right: 10px;
+  flex-basis: calc(25% - 10px);
+}
+
+.post-category-list-item-content {
+  border-left: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+  border-right: 1px solid #d5d5d5;
+}
+
 .footer-top {
   height: 41px;
   background-color: #0c72a4;
