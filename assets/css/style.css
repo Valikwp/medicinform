@@ -296,22 +296,13 @@ a {
 }
 
 .h1 {
-  font-size: 54px;
-  font-weight: 500;
-  font-family: "Open Sans", sans-serif;
-  line-height: 64px;
-  letter-spacing: 0.02em;
-}
-
-.h1.h1-page {
-  font-size: 24px;
+  font-size: 30px;
   font-family: "Open Sans Bold", sans-serif;
-  line-height: 18px;
+  line-height: 36px;
 }
 
 .h2 {
   font-size: 24px;
-  text-transform: uppercase;
   font-family: "Open Sans Bold", sans-serif;
   line-height: 18px;
 }
@@ -974,8 +965,17 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
   content: none;
 }
 
+.header-bottom-link .breadcrumbs li {
+  padding-right: 20px;
+}
+
+.header-bottom-link .breadcrumbs li a {
+  font-size: 12px;
+}
+
 .header-bottom-link .breadcrumbs li:after {
   content: '>';
+  right: 6px;
 }
 
 .sidebar {
