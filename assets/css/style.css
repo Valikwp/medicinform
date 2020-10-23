@@ -393,6 +393,9 @@ input {
   padding-left: 16px;
   padding-right: 16px;
   font-size: 15px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 header .header-top-mobile {
@@ -552,6 +555,7 @@ header .header-top .block-search {
     padding-left: 5px;
     top: -10px;
     position: relative;
+    width: 100%;
   }
 }
 
@@ -567,6 +571,13 @@ header .header-top .block-search-form {
   padding-left: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  header .header-top .block-search-form {
+    width: 100%;
+    display: flex;
+  }
+}
+
 header .header-top .block-search-form input[type=text] {
   max-width: 153px;
   border-top-left-radius: 5px;
@@ -575,7 +586,8 @@ header .header-top .block-search-form input[type=text] {
 
 @media screen and (max-width: 767px) {
   header .header-top .block-search-form input[type=text] {
-    max-width: 212px;
+    max-width: none;
+    width: calc(100% - 32px);
   }
 }
 
@@ -589,6 +601,12 @@ header .header-top .block-search-form input[type=submit] {
   background-color: #daebf4;
   position: relative;
   top: -1px;
+}
+
+@media screen and (max-width: 767px) {
+  header .header-top .block-search-form input[type=submit] {
+    top: 0;
+  }
 }
 
 header .header-top .col-logo {
@@ -769,6 +787,8 @@ header .header-bottom-menu-ul li .submenu-small-wrap {
 
 header .header-bottom-menu-ul li .submenu-small-wrap ul {
   display: flex;
+  padding-left: 15px;
+  flex-wrap: wrap;
 }
 
 header .header-bottom-menu-ul li .submenu-small-wrap ul li {
@@ -783,7 +803,7 @@ header .header-bottom-menu-ul li .submenu-small-wrap ul li {
 
 @media screen and (max-width: 1023px) {
   header .header-bottom-menu-ul li .submenu-small-wrap ul li {
-    padding-right: 0px;
+    padding-right: 10px;
   }
 }
 
@@ -821,6 +841,7 @@ header .header-bottom-menu-ul li .submenu-big .wrap {
 
 header .header-bottom-menu-ul li .submenu-big .wrap .wrap-inner {
   display: flex;
+  padding-left: 15px;
 }
 
 header .header-bottom-menu-ul li .submenu-big .wrap .wrap-inner ul {
