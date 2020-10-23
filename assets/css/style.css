@@ -407,7 +407,8 @@ input {
 }
 
 header .sub-menu-active-parent {
-  font-weight: bold;
+  color: #1289c0 !important;
+  text-decoration: underline;
 }
 
 header .header-top-mobile {
