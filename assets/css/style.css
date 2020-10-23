@@ -406,6 +406,10 @@ input {
   margin: 0;
 }
 
+header .sub-menu-active-parent {
+  font-weight: bold;
+}
+
 header .header-top-mobile {
   background-color: #e2e2e2;
 }
