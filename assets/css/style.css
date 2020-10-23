@@ -586,7 +586,7 @@ header .header-top .block-search-form input[type=text] {
 @media screen and (max-width: 767px) {
   header .header-top .block-search-form input[type=text] {
     max-width: none;
-    width: calc(100% - 78px);
+    width: calc(100% - 79px);
   }
 }
 
