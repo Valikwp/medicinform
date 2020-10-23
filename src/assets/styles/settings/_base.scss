@@ -42,6 +42,7 @@ img {
 
 a {
   transition: all 0.3s linear;
+  color: $color-link;
 }
 
 p {
@@ -60,26 +61,23 @@ p {
 }
 
 .h1 {
-  font-size: 54px;
-  font-weight: 500;
-  font-family: $font;
-  line-height: 64px;
-  letter-spacing: 0.02em;
-
-}
-
-.h1.h1-page {
-  font-size: 24px;
-
+  font-size: 30px;
   font-family: $font-bold;
-  line-height: 18px;
-
+  line-height: 36px;
+  border-bottom: 1px solid $color-h1-dotted;
+  border-bottom-style: dashed;
+  border-width: 3px;
+  display: block;
+  padding-bottom: 16px;
+  margin-bottom: 10px;
 
 }
+
+
 
 .h2 {
   font-size: 24px;
-  text-transform: uppercase;
+
   font-family: $font-bold;
   line-height: 18px;
   @include phone-767 {

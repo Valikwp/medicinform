@@ -1,0 +1,20 @@
+extends template/main
+
+block variables
+    - var title = 'Медицинская информационная сеть - сайт о здоровье человека, портал о медицине, здоровье, психологии, статьи и медицинские новости на сайте'
+    - var pageClass = 'page-home'
+    - var description = ''
+block head
+    link(rel="stylesheet"  href='assets/css/style.css?ver=' + hash)
+
+block content
+    .page-home#page-home
+        include components/header
+        include components/breadcrumbs
+        .site-width
+            .row.row-content
+                .col
+                    .content-wrap
+                        include components/category
+        include components/footer
+block script

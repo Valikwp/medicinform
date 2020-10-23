@@ -1,8 +1,9 @@
 header {
- .sub-menu-active-parent {
-   color: $color-link !important;
-   text-decoration: underline;
+  .sub-menu-active-parent {
+    color: $color-link !important;
+    text-decoration: underline;
   }
+
   .header-top-mobile {
     background-color: $back-mobile;
 
@@ -71,6 +72,7 @@ header {
       display: block;
       padding-top: 3px !important;
       padding-bottom: 3px !important;
+
       > li {
         border-bottom: 1px solid #ccc;
         display: block !important;
@@ -106,15 +108,18 @@ header {
           }
         }
       }
+
       li {
         a {
           line-height: 25px;
         }
+
         p {
           line-height: 25px;
         }
       }
     }
+
     > ul {
       padding-bottom: 13px !important;
     }
@@ -165,18 +170,21 @@ header {
         font-weight: bold;
         padding-right: 10px;
       }
-img {
-  @include phone-767 {
-    position: absolute;
-    left: 25px;
-  }
-}
+
+      img {
+        @include phone-767 {
+          position: absolute;
+          left: 25px;
+        }
+      }
+
       &-form {
         padding-left: 10px;
         @include phone-767 {
-        width: 100%;
-        display: flex;
+          width: 100%;
+          display: flex;
         }
+
         input[type=text] {
           max-width: 153px;
           border-top-left-radius: 5px;
@@ -438,13 +446,15 @@ img {
           }
 
 
+        }
+
+        > li {
+          &:nth-last-of-type(2), &:nth-last-of-type(3) {
+            @include phone-1023 {
+              display: none;
+            }
           }
-> li {
-  &:nth-last-of-type(2), &:nth-last-of-type(3) {
-    @include phone-1023 {
-      display: none;
-    }
-}
+
           @include phone-1023 {
             padding-right: 0;
             padding-left: 15px;
@@ -478,46 +488,60 @@ img {
     }
 
 
-    .header-bottom-link {
-      background-color: $back-header-bottom-2;
-      height: 34px;
 
-      ul {
-        display: flex;
-        align-items: center;
-        line-height: 39px;
-        @include phone-1023 {
-          line-height: 31px;
-          padding-left: 15px;
+  }
+}
+
+.header-bottom-link {
+  background-color: $back-header-bottom-2;
+  height: 34px;
+
+  ul {
+    display: flex;
+    align-items: center;
+    line-height: 39px;
+    @include phone-1023 {
+      line-height: 31px;
+      padding-left: 15px;
+    }
+
+    li {
+      position: relative;
+      padding-right: 30px;
+
+      &:after {
+        position: absolute;
+        content: '|';
+        color: $color-brand;
+        right: 12px;
+      }
+
+      a {
+        color: $color-brand;
+        font-size: 13px;
+
+        &:hover {
+          text-decoration: underline;
         }
+      }
 
-        li {
-          position: relative;
-          padding-right: 30px;
-
-          &:after {
-            position: absolute;
-            content: '|';
-            color: $color-brand;
-            right: 12px;
-          }
-
-          a {
-            color: $color-brand;
-            font-size: 13px;
-
-            &:hover {
-              text-decoration: underline;
-            }
-          }
-
-          &:last-child {
-            &:after {
-              content: none;
-            }
-          }
-
+      &:last-child {
+        &:after {
+          content: none;
         }
+      }
+
+    }
+  }
+  .breadcrumbs {
+    li {
+      padding-right: 20px;
+      a {
+        font-size: 12px;
+      }
+      &:after {
+        content: '>';
+        right: 6px;
       }
     }
   }
