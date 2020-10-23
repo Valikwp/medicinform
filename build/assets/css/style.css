@@ -406,6 +406,11 @@ input {
   margin: 0;
 }
 
+header .sub-menu-active-parent {
+  color: #1289c0 !important;
+  text-decoration: underline;
+}
+
 header .header-top-mobile {
   background-color: #e2e2e2;
 }
@@ -575,6 +580,13 @@ header .header-top .block-search-text {
   padding-right: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  header .header-top .block-search img {
+    position: absolute;
+    left: 25px;
+  }
+}
+
 header .header-top .block-search-form {
   padding-left: 10px;
 }
@@ -596,6 +608,7 @@ header .header-top .block-search-form input[type=text] {
   header .header-top .block-search-form input[type=text] {
     max-width: none;
     width: calc(100% - 78px);
+    padding-left: 35px;
   }
 }
 

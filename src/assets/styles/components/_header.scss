@@ -1,4 +1,8 @@
 header {
+ .sub-menu-active-parent {
+   color: $color-link !important;
+   text-decoration: underline;
+  }
   .header-top-mobile {
     background-color: $back-mobile;
 
@@ -161,7 +165,12 @@ header {
         font-weight: bold;
         padding-right: 10px;
       }
-
+img {
+  @include phone-767 {
+    position: absolute;
+    left: 25px;
+  }
+}
       &-form {
         padding-left: 10px;
         @include phone-767 {
@@ -175,6 +184,7 @@ header {
           @include phone-767 {
             max-width: none;
             width: calc(100% - 78px);
+            padding-left: 35px;
           }
         }
 
