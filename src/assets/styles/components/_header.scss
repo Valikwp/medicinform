@@ -151,6 +151,7 @@ header {
         padding-left: 5px;
         top: -10px;
         position: relative;
+        width: 100%;
       }
 
       &-text {
@@ -163,13 +164,17 @@ header {
 
       &-form {
         padding-left: 10px;
-
+        @include phone-767 {
+        width: 100%;
+        display: flex;
+        }
         input[type=text] {
           max-width: 153px;
           border-top-left-radius: 5px;
           border-bottom-left-radius: 5px;
           @include phone-767 {
-            max-width: 212px;
+            max-width: none;
+            width: calc(100% - 32px);
           }
         }
 
@@ -183,6 +188,9 @@ header {
           background-color: $back-button;
           position: relative;
           top: -1px;
+          @include phone-767 {
+            top: 0;
+          }
         }
       }
     }
@@ -335,6 +343,8 @@ header {
 
               ul {
                 display: flex;
+                padding-left: 15px;
+                flex-wrap: wrap;
 
                 li {
                   padding-right: 10px;
@@ -342,7 +352,7 @@ header {
                     padding-right: 9px;
                   }
                   @include phone-1023 {
-                    padding-right: 0px;
+                    padding-right: 10px;
                   }
 
                   a {
@@ -379,10 +389,12 @@ header {
 
               .wrap-inner {
                 display: flex;
+                padding-left: 15px;
 
                 ul {
                   padding-top: 20px;
                   padding-bottom: 15px;
+
 
                   li {
                     &:first-child span {
