@@ -1702,6 +1702,19 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
   background-position: -36px -30px;
 }
 
+.posts-2-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+.posts-2-list li {
+  flex-basis: calc(25% - 10px);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .footer-top {
   height: 41px;
   background-color: #0c72a4;
