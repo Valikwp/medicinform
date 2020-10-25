@@ -1808,6 +1808,27 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
   padding: 15px;
 }
 
+.block-back {
+  background-color: #f9f9f9;
+}
+
+.block-link {
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.block-link li {
+  padding-bottom: 20px;
+}
+
+.block-link li a {
+  font-size: 16px;
+}
+
+.block-link li a:hover {
+  text-decoration: underline;
+}
+
 .footer-top {
   height: 41px;
   background-color: #0c72a4;
