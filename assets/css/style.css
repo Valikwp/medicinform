@@ -1702,6 +1702,10 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
   background-position: -36px -30px;
 }
 
+.posts-2 {
+  display: flex;
+}
+
 .posts-2-list {
   display: flex;
   flex-wrap: wrap;
