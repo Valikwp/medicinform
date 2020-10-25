@@ -404,9 +404,11 @@ input {
   margin: 0;
 }
 
-header .sub-menu-active-parent {
-  color: #1289c0 !important;
-  text-decoration: underline;
+@media screen and (max-width: 767px) {
+  header .sub-menu-active-parent {
+    color: #1289c0 !important;
+    text-decoration: underline;
+  }
 }
 
 header .header-top-mobile {
