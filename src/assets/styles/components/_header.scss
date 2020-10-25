@@ -1,7 +1,9 @@
 header {
   .sub-menu-active-parent {
+    @include phone-767 {
     color: $color-link !important;
     text-decoration: underline;
+    }
   }
 
   .header-top-mobile {
