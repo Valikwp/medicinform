@@ -1840,6 +1840,16 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
   text-decoration: underline;
 }
 
+.block-baner {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.block-baner-2 {
+  height: calc(100% - 46px);
+}
+
 .block-partners-item {
   margin-top: 20px;
   margin-bottom: 5px;
