@@ -311,6 +311,9 @@ header {
 
         li {
           padding-right: 25px;
+          @include desktop-1200 {
+            padding-right: 20px;
+          }
 
           &:hover p + div {
             display: block;
