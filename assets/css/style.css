@@ -799,7 +799,7 @@ header .header-bottom-menu-ul li p:hover {
 }
 
 header .header-bottom-menu-ul li .sub-menu-active {
-  display: block;
+  display: block !important;
 }
 
 header .header-bottom-menu-ul li .submenu-small {
