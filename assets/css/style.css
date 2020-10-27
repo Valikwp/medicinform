@@ -809,6 +809,10 @@ header .header-bottom-menu-ul li .submenu-small {
   padding-top: 4px;
 }
 
+header .header-bottom-menu-ul li .submenu-small .sub-menu-active {
+  display: block;
+}
+
 header .header-bottom-menu-ul li .submenu-small-wrap {
   background-color: #ffffff;
   border-bottom: 1px solid #bbb;
