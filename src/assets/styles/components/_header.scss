@@ -350,7 +350,7 @@ header {
             }
           }
           .sub-menu-active {
-            display: block;
+            display: block !important;
           }
           .submenu-small {
             display: none;
