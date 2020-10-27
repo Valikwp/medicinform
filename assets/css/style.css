@@ -764,8 +764,10 @@ header .header-bottom-menu-ul li {
   }
 }
 
-header .header-bottom-menu-ul li:hover p + div {
-  display: block;
+@media screen and (min-width: 1201px) {
+  header .header-bottom-menu-ul li:hover p + div {
+    display: block;
+  }
 }
 
 header .header-bottom-menu-ul li a {
