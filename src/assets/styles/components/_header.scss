@@ -362,6 +362,10 @@ header {
             margin-top: -4px;
             padding-top: 4px;
 
+            .sub-menu-active {
+              display: block;
+            }
+
             &-wrap {
               background-color: $back-white;
               border-bottom: 1px solid #bbb;
