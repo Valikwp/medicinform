@@ -798,6 +798,10 @@ header .header-bottom-menu-ul li p:hover {
   text-decoration: underline;
 }
 
+header .header-bottom-menu-ul li .sub-menu-active {
+  display: block;
+}
+
 header .header-bottom-menu-ul li .submenu-small {
   display: none;
   position: absolute;
@@ -807,10 +811,6 @@ header .header-bottom-menu-ul li .submenu-small {
   z-index: 2;
   margin-top: -4px;
   padding-top: 4px;
-}
-
-header .header-bottom-menu-ul li .submenu-small .sub-menu-active {
-  display: block;
 }
 
 header .header-bottom-menu-ul li .submenu-small-wrap {
