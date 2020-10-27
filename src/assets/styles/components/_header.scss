@@ -349,7 +349,9 @@ header {
               text-decoration: underline;
             }
           }
-
+          .sub-menu-active {
+            display: block;
+          }
           .submenu-small {
             display: none;
             position: absolute;
@@ -362,9 +364,7 @@ header {
             margin-top: -4px;
             padding-top: 4px;
 
-            .sub-menu-active {
-              display: block;
-            }
+
 
             &-wrap {
               background-color: $back-white;
