@@ -1,8 +1,8 @@
 header {
   .sub-menu-active-parent {
     @include phone-767 {
-    color: $color-link !important;
-    text-decoration: underline;
+      color: $color-link !important;
+      text-decoration: underline;
     }
   }
 
@@ -316,7 +316,9 @@ header {
           }
 
           &:hover p + div {
-            display: block;
+            @include desktop-1201 {
+              display: block;
+            }
           }
 
           a {
@@ -493,7 +495,6 @@ header {
     }
 
 
-
   }
 }
 
@@ -538,12 +539,15 @@ header {
 
     }
   }
+
   .breadcrumbs {
     li {
       padding-right: 20px;
+
       a {
         font-size: 12px;
       }
+
       &:after {
         content: '>';
         right: 6px;

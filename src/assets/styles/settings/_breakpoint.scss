@@ -1,9 +1,15 @@
 // Responsive breakpoints. "Include media" settings.
-
+$desktop-1201: 1201px;
 $desktop-1200: 1200px;
 $desktop-1097: 1097px;
 $phone-1023: 1023px;
 $phone-767: 767px;
+
+@mixin desktop-1201 {
+  @media screen and (min-width: $desktop-1201) {
+    @content;
+  }
+}
 
 @mixin desktop-1200 {
   @media screen and (max-width: $desktop-1200) {
