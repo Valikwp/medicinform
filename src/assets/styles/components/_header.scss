@@ -208,7 +208,7 @@ header {
           background-color: $back-button;
           height: 32px;
           position: relative;
-          top: -1px;
+          vertical-align: top;
           @include phone-767 {
             top: 0;
           }

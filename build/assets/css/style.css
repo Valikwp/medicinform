@@ -622,7 +622,7 @@ header .header-top .block-search-form input[type=submit] {
   background-color: #daebf4;
   height: 32px;
   position: relative;
-  top: -1px;
+  vertical-align: top;
 }
 
 @media screen and (max-width: 767px) {
