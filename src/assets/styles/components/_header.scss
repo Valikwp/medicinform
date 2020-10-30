@@ -206,6 +206,7 @@ header {
           border-top-right-radius: 5px;
           border-bottom-right-radius: 5px;
           background-color: $back-button;
+          height: 32px;
           position: relative;
           top: -1px;
           @include phone-767 {
