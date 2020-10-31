@@ -1196,10 +1196,8 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
 
 .appointment {
   position: relative;
-  background-color: #0d81b8;
   top: 22px;
   display: block;
-  height: 108px;
   margin-bottom: 60px;
 }
 
@@ -1215,9 +1213,13 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
   }
 }
 
+.appointment img {
+  width: 100%;
+}
+
 .appointment:before {
   position: absolute;
-  content: '';
+  content: none;
   background-image: url(../images/icon/doctor.png);
   width: 63px;
   height: 102px;
