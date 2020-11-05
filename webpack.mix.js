@@ -32,7 +32,7 @@ mix.sass('src/assets/styles/style.scss', 'build/assets/css');
 
 
 mix.pug('src/pug/*.pug', '../../build/', {
-   seeds: 'build',
+  // seeds: 'build',
   locals: {hash: Date.now(), production: mix.inProduction()},
   pug: {
     pretty: mix.inProduction(),

@@ -506,6 +506,9 @@ header {
 .header-bottom-link {
   background-color: $back-header-bottom-2;
   height: 34px;
+  @include phone-767 {
+    display: none;
+  }
 
   ul {
     display: flex;

@@ -189,10 +189,10 @@
 
 .appointment {
   position: relative;
-  background-color: $back-zapis;
+
   top: 22px;
   display: block;
-  height: 108px;
+
   margin-bottom: 60px;
   @include phone-1023 {
     top: 0;
@@ -201,9 +201,13 @@
     margin-bottom: 23px;
   }
 
+  img {
+  width: 100%;
+  }
+
   &:before {
     position: absolute;
-    content: '';
+    content: none;
     background-image: url(../images/icon/doctor.png);
     width: 63px;
     height: 102px;
