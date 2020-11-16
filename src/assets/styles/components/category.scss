@@ -50,15 +50,17 @@
       padding-top: 10px;
 
       a {
-        font-size: 13px;
+        font-size: 15px;
+        line-height: 18px;
         font-family: $font-bold;
 
 
       }
 
       p {
-        font-size: 13px;
+        font-size: 15px;
         display: inline;
+        line-height: 18px;
       }
     }
   }
@@ -66,6 +68,7 @@
 
 .pagenavi {
   padding-bottom: 5px;
+
   span {
     @include phone-767 {
       display: none;
@@ -88,6 +91,7 @@
       align-items: center;
       @include phone-767 {
         padding-left: 0;
+        display: none;
       }
 
       li {
@@ -146,9 +150,41 @@
         }
       }
     }
+
+    &-mobile {
+      font-size: 16px;
+      position: relative;
+      color: $main-color;
+      text-decoration: underline;
+
+      &:before {
+        content: '';
+        position: absolute;
+        left: -18px;
+        top: 4.5px;
+        width: 9px;
+        height: 11px;
+        background-image: url(../images/icon/nav_down.png);
+        background-repeat: no-repeat;
+
+      }
+      &:after {
+        content: '';
+        position: absolute;
+        right: -18px;
+        top: 4.5px;
+        width: 9px;
+        height: 11px;
+        background-image: url(../images/icon/nav_down.png);
+        background-repeat: no-repeat;
+
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
 }
-
 .reklama {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -191,11 +227,12 @@
         text-align: center;
         display: block;
         text-decoration: underline;
-        line-height: 16px;
+        line-height: 18px;
         padding-left: 10px;
         padding-right: 20px;
         padding-top: 10px;
         padding-bottom: 10px;
+        font-size: 15px;
 
         &:hover {
           text-decoration: none;
