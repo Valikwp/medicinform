@@ -982,7 +982,7 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
 
 .header-bottom-link ul li a {
   color: #0c7eb6;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .header-bottom-link ul li a:hover {
@@ -1148,8 +1148,8 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
 }
 
 .sidebar-new-item a {
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 18px;
   color: #1289c0;
   text-decoration: underline;
 }
@@ -1160,9 +1160,9 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
 
 .sidebar-new-item p {
   display: inline;
-  font-size: 14px;
+  font-size: 15px;
+  line-height: 18px;
   padding-left: 5px;
-  line-height: 20px;
 }
 
 .sidebar-new-item p a {
@@ -1350,14 +1350,8 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
 }
 
 .last-news-big-content p {
-  line-height: 17px;
-}
-
-@media screen and (max-width: 767px) {
-  .last-news-big-content p {
-    line-height: 18px;
-    font-size: 15px;
-  }
+  line-height: 18px;
+  font-size: 15px;
 }
 
 .last-news-small {
@@ -1392,18 +1386,17 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
 }
 
 .last-news-small-item-content a {
-  font-size: 12px;
+  font-size: 15px;
   color: #1289c0;
   display: block;
   text-decoration: underline;
   font-family: "Open Sans Bold", sans-serif;
   padding-bottom: 15px;
-  line-height: 13px;
+  line-height: 18px;
 }
 
 @media screen and (max-width: 767px) {
   .last-news-small-item-content a {
-    font-size: 12px;
     padding-bottom: 5px;
   }
 }
@@ -1625,6 +1618,7 @@ header .header-bottom-menu-ul .header-bottom-menu-ul-li-mobile .submenu-small-ta
 
 .content-category {
   padding-bottom: 0;
+  padding-top: 5px;
 }
 
 @media screen and (max-width: 767px) {

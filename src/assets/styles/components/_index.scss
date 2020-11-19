@@ -76,11 +76,9 @@
       }
 
       p {
-        line-height: 17px;
-        @include phone-767 {
-          line-height: 18px;
-          font-size: 15px;
-        }
+        line-height: 18px;
+        font-size: 15px;
+
       }
     }
   }
@@ -113,15 +111,15 @@
         padding: 11px;
 
         a {
-          font-size: 12px;
+          font-size: 15px;
           color: $color-link;
           display: block;
           text-decoration: underline;
           font-family: $font-bold;
           padding-bottom: 15px;
-          line-height: 13px;
+          line-height: 18px;
           @include phone-767 {
-            font-size: 12px;
+
             padding-bottom: 5px;
           }
 
